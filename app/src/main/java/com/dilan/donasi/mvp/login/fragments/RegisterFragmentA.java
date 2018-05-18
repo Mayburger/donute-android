@@ -145,13 +145,11 @@ public class RegisterFragmentA extends BaseFragment<Fragment> {
                     errorText(v,R.string.password_not_match);
                 } else {
                     if (isEmailValid(etEmail.getText().toString())) {
-//                        Bundle bundle = new Bundle();
-//                        bundle.putString(Keys.EMAIL, etEmail.getText().toString());
-//                        bundle.putString(Keys.PASSWORD, etConPassword.getText().toString());
-//                        RegisterFragmentB registerFragmentB = new RegisterFragmentB();
-//                        addFragmentOnTop((AppCompatActivity) activity, new RegisterFragmentB(), R.id.frame_login);
-                        errorPop.showAsDropDown(etEmail);
-                        errorText(v,R.string.email_not_valid);
+                        Bundle bundle = new Bundle();
+                        bundle.putString(Keys.EMAIL, etEmail.getText().toString());
+                        bundle.putString(Keys.PASSWORD, etConPassword.getText().toString());
+                        RegisterFragmentB registerFragmentB = new RegisterFragmentB();
+                        addFragmentOnTop((AppCompatActivity) activity, new RegisterFragmentB(), R.id.frame_login);
                         errorPop.dismiss();
                     } else {
                         errorPop.showAsDropDown(etEmail);
