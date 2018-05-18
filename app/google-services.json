@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "895242458765",
+    "firebase_url": "https://donute-android.firebaseio.com",
+    "project_id": "donute-android",
+    "storage_bucket": "donute-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895242458765:android:933ffa5fc5d0b2eb",
+        "android_client_info": {
+          "package_name": "com.dilan.donasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895242458765-jddfb7lmg0n9tp410ej44erse6ip6bi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG4JfzUjwuGSss93RXstm8_j7eHl2pRuc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
